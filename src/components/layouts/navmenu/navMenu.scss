@@ -1,0 +1,29 @@
+@import "../../../sass/reset.scss";
+@import "../../../sass/variables.scss";
+
+.nav {
+  width: 5%;
+  height: 30%;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  left: 6%;
+  transform: translateY(-50%);
+  border-radius: 50px;
+  border: 1px solid black;
+  li {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i {
+      font-size: 40px;
+    }
+    &:hover {
+      cursor: pointer;
+      border: 2px solid black;
+      border-radius: 50px;
+    }
+  }
+}

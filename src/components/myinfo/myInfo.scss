@@ -1,0 +1,26 @@
+@import "../../sass/reset.scss";
+@import "../../sass/variables.scss";
+
+.my-info {
+  height: 100vh;
+  h3 {
+    position: relative;
+  }
+  h3::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: $secondary;
+  }
+  &__paragraph {
+    margin-top: 30px;
+  }
+  &__button {
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background: transparent;
+  }
+}
